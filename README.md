@@ -1,5 +1,7 @@
 # Semiconductor Quality Lab
 
+[![Research contracts](https://github.com/HarshaSanka/semiconductor-quality-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/HarshaSanka/semiconductor-quality-lab/actions/workflows/ci.yml)
+
 **Failure prediction and process analytics on real semiconductor manufacturing data.**
 
 A personal AI/ML research engineering project connecting electronics, applied machine learning and reproducible experimentation. It evaluates manufacturing quality prediction on UCI SECOM, exposes a strict sensor-data inference contract, and presents the findings in a research dashboard.
@@ -17,6 +19,8 @@ A personal AI/ML research engineering project connecting electronics, applied ma
 - [Raw evaluation outputs](artifacts/results.json), [fold metrics](artifacts/fold_metrics.csv), [split indices](artifacts/split_manifest.json), [holdout predictions](artifacts/holdout_predictions.csv).
 
 ## What is implemented and what was verified
+
+**GitHub verification:** [both core and full-dependency CI jobs passed](https://github.com/HarshaSanka/semiconductor-quality-lab/actions/runs/38766661775) on commit `30ddb2b`. The full job runs the API contracts and synthetic integration checks for XGBoost, SHAP additivity and MLflow artifact tracking. This verifies those integrations; it does not establish a full-profile SECOM benchmark, a deployed dashboard, Docker operation or BigQuery execution. The table below records the original local build checks.
 
 | Component | Implementation | Verification in the build environment |
 | --- | --- | --- |
