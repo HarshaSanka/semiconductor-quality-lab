@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If using this software, cite this repository and the original SECOM dataset."
+title: "Semiconductor Quality Lab"
+type: software
+version: 0.1.0
+date-released: '2026-10-15'
+license: MIT
+authors:
+  - name: "Semiconductor Quality Lab contributors"
+references:
+  - type: data
+    title: SECOM
+    authors:
+      - family-names: McCann
+        given-names: Michael
+      - family-names: Johnston
+        given-names: Adrian
+    year: 2008
+    doi: 10.24432/C54305

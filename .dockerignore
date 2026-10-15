@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+data/raw
+mlruns
+dist
+artifacts/model.joblib
+artifacts/research.sqlite
+artifacts/background.csv
