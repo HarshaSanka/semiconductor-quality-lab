@@ -1,0 +1,21 @@
+name: Research contracts
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        extras: [dev, 'full,dev']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -e ".[${{ matrix.extras }}]"
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compileall -q src scripts
+      - if: matrix.extras == 'full,dev'
+        run: python scripts/smoke_full.py
