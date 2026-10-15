@@ -1,0 +1,15 @@
+{
+  "samples": 1567,
+  "sensors": 590,
+  "failures": 104,
+  "passes": 1463,
+  "failure_rate": 0.06636885768985322,
+  "missing_fraction": 0.04537548808583821,
+  "all_missing_sensors": 0,
+  "constant_sensors": 116,
+  "timestamp_min": "2008-07-19 11:55:00",
+  "timestamp_max": "2008-10-17 06:07:00",
+  "development_rows": 1253,
+  "test_rows": 314,
+  "test_failures": 21
+}

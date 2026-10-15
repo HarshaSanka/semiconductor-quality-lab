@@ -1,0 +1,36 @@
+test_all_null_row (test_api.APITests.test_all_null_row) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_bad_row_schema (test_api.APITests.test_bad_row_schema) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_empty_batch (test_api.APITests.test_empty_batch) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_explanation_batch_limit (test_api.APITests.test_explanation_batch_limit) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_health (test_api.APITests.test_health) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_prediction (test_api.APITests.test_prediction) ... skipped 'FastAPI/httpx are optional; install .[full,dev]'
+test_published_splits_and_metrics (test_core.ArtifactTests.test_published_splits_and_metrics) ... ok
+test_ap_is_not_accuracy (test_core.EvaluationTests.test_ap_is_not_accuracy) ... ok
+test_bootstrap_reproducible_and_ordered (test_core.EvaluationTests.test_bootstrap_reproducible_and_ordered) ... ok
+test_failure_is_positive_class (test_core.EvaluationTests.test_failure_is_positive_class) ... ok
+test_threshold_is_f2_optimal_on_development (test_core.EvaluationTests.test_threshold_is_f2_optimal_on_development) ... ok
+test_feature_names_survive_sensor_selection (test_core.ModelingTests.test_feature_names_survive_sensor_selection) ... ok
+test_hash_mismatch_prevents_loading (test_core.ModelingTests.test_hash_mismatch_prevents_loading) ... ok
+test_imputer_uses_only_training_medians (test_core.ModelingTests.test_imputer_uses_only_training_medians) ... ok
+test_missingness_filter_never_refits_on_validation (test_core.ModelingTests.test_missingness_filter_never_refits_on_validation) ... ok
+test_preprocessing_and_model_serialization (test_core.ModelingTests.test_preprocessing_and_model_serialization) ... ok
+test_all_missing_run_rejected (test_core.SchemaTests.test_all_missing_run_rejected) ... ok
+test_csv_duplicate_header_rejected (test_core.SchemaTests.test_csv_duplicate_header_rejected) ... ok
+test_csv_roundtrip (test_core.SchemaTests.test_csv_roundtrip) ... ok
+test_empty_batch_rejected (test_core.SchemaTests.test_empty_batch_rejected) ... ok
+test_infinity_rejected (test_core.SchemaTests.test_infinity_rejected) ... ok
+test_label_leakage_column_rejected (test_core.SchemaTests.test_label_leakage_column_rejected) ... ok
+test_missing_columns_rejected (test_core.SchemaTests.test_missing_columns_rejected) ... ok
+test_missing_values_allowed (test_core.SchemaTests.test_missing_values_allowed) ... ok
+test_non_numeric_rejected (test_core.SchemaTests.test_non_numeric_rejected) ... ok
+test_oversized_batch_rejected (test_core.SchemaTests.test_oversized_batch_rejected) ... ok
+test_reordered_columns_are_canonicalized (test_core.SchemaTests.test_reordered_columns_are_canonicalized) ... ok
+test_bad_csv_returns_validation_error (test_demo.DemoHandlerTests.test_bad_csv_returns_validation_error) ... ok
+test_predicts_csv (test_demo.DemoHandlerTests.test_predicts_csv) ... ok
+test_serves_results (test_demo.DemoHandlerTests.test_serves_results) ... ok
+test_unknown_path_rejected (test_demo.DemoHandlerTests.test_unknown_path_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.557s
+
+OK (skipped=6)

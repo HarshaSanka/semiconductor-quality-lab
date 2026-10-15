@@ -1,0 +1,12 @@
+{
+  "core_tests_passed": 25,
+  "optional_api_tests_skipped": 6,
+  "tests_discovered": 31,
+  "cli_inference": "passed: five real holdout examples",
+  "python_compile": "passed",
+  "javascript_syntax": "passed: node --check",
+  "sql_queries": "passed",
+  "browser_live_demo": "blocked: localhost binding unavailable",
+  "optional_stack": "not executed: dependencies unavailable",
+  "github": "Core build verification record; repository publishing and remote CI are separate from these local checks"
+}

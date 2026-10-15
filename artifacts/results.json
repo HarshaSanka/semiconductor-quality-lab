@@ -1,0 +1,160 @@
+{
+  "winner": "E2_forest_all",
+  "profile": "core",
+  "seed": 42,
+  "folds": 5,
+  "selection_rule": "highest mean fold average precision; lexical tie-break",
+  "threshold_rule": "maximize F2 on winner's development out-of-fold predictions",
+  "threshold": 0.08987278061530247,
+  "holdout": {
+    "average_precision": 0.2007936386565318,
+    "roc_auc": 0.7864456362749878,
+    "precision": 0.1415929203539823,
+    "recall": 0.7619047619047619,
+    "f1": 0.23880597014925373,
+    "brier": 0.05892960143115324,
+    "threshold": 0.08987278061530247,
+    "tn": 196,
+    "fp": 97,
+    "fn": 5,
+    "tp": 16
+  },
+  "holdout_at_0_5": {
+    "average_precision": 0.2007936386565318,
+    "roc_auc": 0.7864456362749878,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.05892960143115324,
+    "threshold": 0.5,
+    "tn": 293,
+    "fp": 0,
+    "fn": 21,
+    "tp": 0
+  },
+  "holdout_intervals_95": {
+    "average_precision": [
+      0.13757182358567452,
+      0.3635404682121407
+    ],
+    "roc_auc": [
+      0.6925036567528035,
+      0.8705021940516822
+    ],
+    "precision": [
+      0.11029411764705882,
+      0.18
+    ],
+    "recall": [
+      0.5714285714285714,
+      0.9047619047619048
+    ],
+    "f1": [
+      0.1860171975767051,
+      0.2975206611570248
+    ],
+    "brier": [
+      0.05654641688826961,
+      0.061297732170115714
+    ]
+  },
+  "dummy_holdout": {
+    "average_precision": 0.06687898089171974,
+    "roc_auc": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.062406589798728616,
+    "threshold": 0.5,
+    "tn": 293,
+    "fp": 0,
+    "fn": 21,
+    "tp": 0
+  },
+  "temporal_sensitivity": [
+    {
+      "fold": 0,
+      "status": "evaluated",
+      "train_rows": 314,
+      "validation_rows": 313,
+      "train_end": "2008-08-21 23:27:00",
+      "validation_start": "2008-08-21 23:53:00",
+      "average_precision": 0.17723616619243188,
+      "roc_auc": 0.6023479831426851,
+      "precision": 0.03536977491961415,
+      "recall": 1.0,
+      "f1": 0.06832298136645963,
+      "brier": 0.05293270643245705,
+      "threshold": 0.08987278061530247,
+      "tn": 2,
+      "fp": 300,
+      "fn": 0,
+      "tp": 11
+    },
+    {
+      "fold": 1,
+      "status": "evaluated",
+      "train_rows": 627,
+      "validation_rows": 313,
+      "train_end": "2008-09-10 09:21:00",
+      "validation_start": "2008-09-10 20:52:00",
+      "average_precision": 0.21622426158302374,
+      "roc_auc": 0.6968693558097532,
+      "precision": 0.06557377049180328,
+      "recall": 0.7272727272727273,
+      "f1": 0.12030075187969924,
+      "brier": 0.03567252586842215,
+      "threshold": 0.08987278061530247,
+      "tn": 188,
+      "fp": 114,
+      "fn": 3,
+      "tp": 8
+    },
+    {
+      "fold": 2,
+      "status": "evaluated",
+      "train_rows": 940,
+      "validation_rows": 313,
+      "train_end": "2008-09-28 20:42:00",
+      "validation_start": "2008-09-28 21:27:00",
+      "average_precision": 0.13556134133310987,
+      "roc_auc": 0.6146444879321591,
+      "precision": 0.10869565217391304,
+      "recall": 0.23809523809523808,
+      "f1": 0.14925373134328357,
+      "brier": 0.06166642431190967,
+      "threshold": 0.08987278061530247,
+      "tn": 251,
+      "fp": 41,
+      "fn": 16,
+      "tp": 5
+    }
+  ],
+  "quality": {
+    "samples": 1567,
+    "sensors": 590,
+    "failures": 104,
+    "passes": 1463,
+    "failure_rate": 0.06636885768985322,
+    "missing_fraction": 0.04537548808583821,
+    "all_missing_sensors": 0,
+    "constant_sensors": 116,
+    "timestamp_min": "2008-07-19 11:55:00",
+    "timestamp_max": "2008-10-17 06:07:00",
+    "development_rows": 1253,
+    "test_rows": 314,
+    "test_failures": 21
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.11.1"
+  },
+  "python": "3.12.14",
+  "data_sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c",
+  "labels_sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03",
+  "probabilities_calibrated": false
+}
